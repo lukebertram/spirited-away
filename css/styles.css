@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700');
+
+*, *::after, *::before{
+  box-sizing: border-box;
+}
+body, div, h1 {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: linear-gradient(#644865, #ffffff);
+  min-width: 320px;
+}
+
+.hero{
+  height: 40vh;
+  background-image: url('../img/radish-bowl.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #fff;
+}
+
+.header{
+  background: linear-gradient(#f1ad24, #ffffff);
+  height: 150px;
+  width: 100%;
+  color: #d03b0b;
+}
+.header h1{
+  font-size: 80px;
+  letter-spacing: -1px;
+  text-shadow: 2px 2px 9px #fffcf7;
+}
+.nav {
+}
+.nav ul {
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.nav li{
+  display: inline-block;
+  font-size: 23px;
+  margin: 0;
+  font-family: sans-serif;
+  color: #9d8ba5;
+}
+.nav li:not(:first-child){
+  margin-left: 15px;
+}
+
+.logo{
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+}
