@@ -7,6 +7,9 @@ body, div, h1 {
   margin: 0;
   padding: 0;
 }
+a{
+  text-decoration: none;
+}
 
 body{
   background: linear-gradient(#644865, #ffffff);
@@ -44,16 +47,56 @@ body{
 
 .nav li{
   display: inline-block;
-  font-size: 23px;
+  font-size: 15px;
   margin: 0;
   font-family: sans-serif;
-  color: #9d8ba5;
+
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 .nav li:not(:first-child){
   margin-left: 15px;
 }
-
+.nav li a {
+  color: #9d8ba5;
+}
+.nav li a:hover,
+.nav li a:active {
+  color: #e40f0f;
+}
 .logo{
   text-align: center;
   font-family: 'Amatic SC', cursive;
+}
+
+.copy{
+  background: linear-gradient(#ffffff, #f1ad24);
+}
+
+.copy img{
+  float: left;
+  width: 150px;
+}
+
+.copy p{
+  margin: 0;
+  padding: 15px;
+  color: #604561;
+  font-family: sans-serif;
+}
+
+/*GALLERY*/
+.gallery-item{
+  display: inline-block;
+  width: 47vw;
+  margin: 1vw;
+}
+.gallery-item img {
+  width: 100%;
+}
+
+@media screen and (min-width: 460px){
+  .copy{
+    background: red;
+  }
 }
