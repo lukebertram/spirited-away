@@ -87,12 +87,13 @@ body{
 
 /*GALLERY*/
 .gallery{
+  text-align: center;
   background-color: #614663;
 }
 .gallery-item{
   display: inline-block;
-  width: 47vw;
-  margin: 1vw;
+  width: 46%;
+  margin: auto;
 }
 .gallery-item img {
   width: 100%;
