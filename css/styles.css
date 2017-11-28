@@ -86,6 +86,9 @@ body{
 }
 
 /*GALLERY*/
+.gallery{
+  background-color: #614663;
+}
 .gallery-item{
   display: inline-block;
   width: 47vw;
@@ -93,6 +96,7 @@ body{
 }
 .gallery-item img {
   width: 100%;
+  max-width: 200px;
 }
 
 @media screen and (min-width: 460px){
